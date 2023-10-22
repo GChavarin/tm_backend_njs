@@ -1,0 +1,14 @@
+{
+  "name": "01_email",
+  "version": "1.0.0",
+  "description": "Utilizar funcionalidad de correos electronicos con nodejs",
+  "main": "email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Chavarin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.6"
+  }
+}

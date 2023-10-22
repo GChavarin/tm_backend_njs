@@ -1,0 +1,14 @@
+{
+  "name": "02_qr",
+  "version": "1.0.0",
+  "description": "Crear un codigo QR a partir de un text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Chavarin",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}

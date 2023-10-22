@@ -1,0 +1,13 @@
+{
+    "name": "node-ex-website",
+    "version": "1.0.0",
+    "description": "Using Express",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsdom": "^22.1.0",
+        "puppeteer": "^21.4.0"
+    }
+}

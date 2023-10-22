@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebApp Usando Express</title>
+    <link rel=¨stylesheet¨ type=¨text/css¨ href=¨styles.css¨>
+</head>
+<body>
+    <h1>WebApp con Express</h1>
+
+    <h2>Funcionalidad disponible...</h2>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="abrirForma(event, 'RaspadorWeb')" id="defaultOpen">Raspador Web</button>
+    </div>
+    
+    <!-- Tab content -->
+    <div id="RaspadorWeb" class="tabcontent">
+        <h3>Raspador Web</h3>
+
+        <form action="/raspar" method="GET">
+            <label for="rasparWeb">Página web: (ej: https://www.amazon.com.mx/gp/bestsellers/?ref_=nav_cs_bestsellers)</label>
+            <br>
+            <input type="text" id="rasparWeb" name="rasparWeb" size="80"/>
+            <br>
+            <label for="rasparWeb">Buscar elemento(s): (ej: div .p13n-sc-truncate)</label>
+            <br>
+            <input type="text" id="rasparElementos" name="rasparElementos" size="40"/>
+            <br><br>
+            <button type="submit">Raspar</button>
+            <input type="reset"> 
+        </form>
+
+    </div>
+    
+    <script src="scripts_index.js"></script> 
+</body>
+</html>
